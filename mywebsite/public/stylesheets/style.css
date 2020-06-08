@@ -1,0 +1,84 @@
+html { 
+  background: url(../images/jesse-walt-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-3 { 
+  color: #FFFFFF;
+}
+
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-left: 12%;
+  width: 76%;
+  position: absolute;
+  height: 100%;
+  background-color: #1F6032;
+  border-right: solid white 1px;
+  border-left: solid white 1px;
+}
+
+
+
+.navbar {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-family: Arial, serif;
+  font-size: 15px;
+  background-color: #FEDF00;
+  /* background-image: url("/images/navbar-background.jpg"); */
+  display: flex;
+}
+
+nav ul {
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+}
+
+
+#myNavbar img {
+  max-width: 150px;
+  max-height: 130px;
+}
+
+.active>a {
+color: #1abc9c !important;;
+}
+
+
+/* RANDOM DEATH PAGE STYLING */
+
+#char-image {
+  max-height: 500px;
+  max-width: 500px;
+  min-height: 350px;
+  min-width: 350px;
+}
+
+#random-char {
+  font-size: 25px;
+  font-family: Arial, serif;
+}
+
+
+

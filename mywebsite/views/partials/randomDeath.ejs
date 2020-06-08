@@ -1,0 +1,7 @@
+<script>
+    let resp = <%- JSON.stringify(breakingBadResponse) %>
+    let randomCharObject = JSON.parse(resp);
+    console.log(randomCharObject);
+    document.getElementById("random-char").innerHTML = randomCharObject.death
+    document.getElementById("char-image").src = randomCharObject.img
+</script>
